@@ -1,0 +1,29 @@
+{
+  "name": "express-session-app",
+  "version": "1.0.0",
+  "description": "NodeJS, ExpressJS, Handlebars and Express-Session based auth app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cookie",
+    "Session",
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Zaki Mohammed",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.2",
+    "connect-mongo": "^4.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

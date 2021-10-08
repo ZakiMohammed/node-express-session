@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col">
+        <div class="h-100 p-5 bg-light border rounded-3">
+            <h1>{{title}}</h1>
+            <p>Welcome to the home screen after login.</p>
+            <p><b>User:</b> {{username}}, <b>Max Age:</b> {{maxAge}}</p>
+            <form action="/actions/logout" method="POST">
+                <a href="/about" class="btn btn-outline-secondary">About</a>
+                <button class="btn btn-primary">Logout</button>
+            </form>
+        </div>
+    </div>
+</div>
